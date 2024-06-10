@@ -17,7 +17,7 @@ Goblinmine's Minecart Tweaks is a Fabric mod for Minecraft that enhances minecar
 ## Installation
 
 1. Download and install Minecraft Fabric.
-2. Download the latest version of Goblinmine's Minecart Tweaks from [Modrinth](https://modrinth.com/mod/goblinmines-minecart-tweaks).
+2. Download the latest version of **Goblinmine's Minecart Tweaks** from [Modrinth](https://modrinth.com/mod/goblinmines-minecart-tweaks).
 3. Place the downloaded mod file into the `mods` folder of your Minecraft directory.
 4. Launch Minecraft with the Fabric profile.
 
@@ -39,11 +39,11 @@ Goblinmine's Minecart Tweaks is available for download on [Modrinth](https://mod
 
 ## Contributing
 
-Contributions are welcome! If you have suggestions for new features or improvements, feel free to open an issue or submit a pull request on the [Gitea repository](https://git.maybug.net/Goblinmine/goblinmines-minecart-tweaks).
+Contributions are welcome! If you have suggestions for new features or improvements, feel free to open an issue or submit a pull request on the [Github repository](https://github.com/Goblinmine/goblinmines-minecart-tweaks).
 
 ## Support
 
-If you encounter any issues or have questions about the mod, please open an issue on the [Gitea repository](https://git.maybug.net/Goblinmine/goblinmines-minecart-tweaks/issues).
+If you encounter any issues or have questions about the mod, please open an issue on the [Github repository](https://github.com/Goblinmine/goblinmines-minecart-tweaks/issues).
 
 ## Acknowledgments
 
@@ -51,5 +51,4 @@ If you encounter any issues or have questions about the mod, please open an issu
 
 ## Contact
 
-For any inquiries, please contact [your email or other contact info].
-
+For any inquiries, please contact me on discord at @goblinmine.
