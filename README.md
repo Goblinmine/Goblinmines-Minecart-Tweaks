@@ -3,4 +3,9 @@
 ## Inspiration
 Some ideas for this mod were inspired by [Cammie's Minecart Tweaks](https://github.com/CammiePone/Cammies-Minecart-Tweaks) by Cammie.
 ## License
-This project is licensed under the CC BY-NC-SA 4.0 License. See the [LICENSE](LICENSE) file for details.
+
+This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license. 
+
+For the full license text, please refer to the [LICENSE](LICENSE) file in this repository.
+
+For a summary of the license, please visit the [Creative Commons website](https://creativecommons.org/licenses/by-nc-sa/4.0/).
