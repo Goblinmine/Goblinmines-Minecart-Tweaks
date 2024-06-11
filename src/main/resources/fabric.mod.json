@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "goblinmines-minecart-tweaks",
+	"version": "${version}",
+	"name": "Goblinmine's Minecart Tweaks",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/goblinmines-minecart-tweaks/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.goblinmine.minecart_tweaks.GoblinminesMinecartTweaks"
+		],
+		"client": [
+			"net.goblinmine.minecart_tweaks.GoblinminesMinecartTweaksClient"
+		],
+		"fabric-datagen": [
+			"net.goblinmine.minecart_tweaks.GoblinminesMinecartTweaksDataGenerator"
+		]
+	},
+	"mixins": [
+		"goblinmines-minecart-tweaks.mixins.json",
+		{
+			"config": "goblinmines-minecart-tweaks.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
