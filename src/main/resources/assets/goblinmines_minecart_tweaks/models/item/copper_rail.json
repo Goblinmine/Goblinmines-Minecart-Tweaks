@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "goblinmines_minecart_tweaks:block/copper_rail"
+  }
+}
