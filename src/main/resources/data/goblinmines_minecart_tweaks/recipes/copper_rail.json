@@ -1,24 +1,23 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "C C",
-    "CSC",
-    "CRC"
-  ],
-  "key": {
-    "C": {
-      "item": "minecraft:copper_ingot"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "c c",
+        "csc",
+        "crc"
+    ],
+    "key": {
+        "c": {
+            "item": "minecraft:copper_ingot"
+        },
+        "s": {
+            "item": "minecraft:stick"
+        },
+        "r": {
+            "item": "minecraft:redstone"
+        }
     },
-    "R": {
-      "item": "minecraft:redstone"
-    },
-    "S": {
-      "item": "minecraft:stick"
+    "result": {
+        "item": "goblinmines_minecart_tweaks:copper_rail",
+        "count": 6
     }
-  },
-  "result": {
-    "item": "goblinmines_minecart_tweaks:copper_rail",
-    "count": 6
-  }
 }
-
