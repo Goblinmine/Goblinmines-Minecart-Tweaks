@@ -1,0 +1,53 @@
+{
+  "variants": {
+    "powered=false,shape=east_west": {
+      "model": "goblinmines_minecart_tweaks:block/copper_rail",
+      "y": 90
+    },
+    "powered=false,shape=north_south": {
+      "model": "goblinmines_minecart_tweaks:block/copper_rail",
+      "y": 180
+    },
+    "powered=false,shape=ascending_east": {
+      "model": "goblinmines_minecart_tweaks:block/copper_rail_raised_ne",
+      "y": 90
+    },
+    "powered=false,shape=ascending_north": {
+      "model": "goblinmines_minecart_tweaks:block/copper_rail_raised_sw",
+      "y": 180
+    },
+    "powered=false,shape=ascending_south": {
+      "model": "goblinmines_minecart_tweaks:block/copper_rail_raised_ne",
+      "y": 180
+    },
+    "powered=false,shape=ascending_west": {
+      "model": "goblinmines_minecart_tweaks:block/copper_rail_raised_sw",
+      "y": 90
+    },
+
+    "powered=true,shape=east_west": {
+      "model": "goblinmines_minecart_tweaks:block/copper_rail_on",
+      "y": 90
+    },
+    "powered=true,shape=north_south": {
+      "model": "goblinmines_minecart_tweaks:block/copper_rail_on",
+      "y": 180
+    },
+    "powered=true,shape=ascending_east": {
+      "model": "goblinmines_minecart_tweaks:block/copper_rail_on_raised_ne",
+      "y": 90
+    },
+    "powered=true,shape=ascending_north": {
+      "model": "goblinmines_minecart_tweaks:block/copper_rail_on_raised_sw",
+      "y": 180
+    },
+    "powered=true,shape=ascending_south": {
+      "model": "goblinmines_minecart_tweaks:block/copper_rail_on_raised_ne",
+      "y": 180
+    },
+    "powered=true,shape=ascending_west": {
+      "model": "goblinmines_minecart_tweaks:block/copper_rail_on_raised_sw",
+      "y": 90
+    }
+  }
+}

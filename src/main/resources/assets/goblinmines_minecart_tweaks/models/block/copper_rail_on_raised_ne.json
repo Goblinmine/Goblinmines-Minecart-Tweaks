@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_rail_raised_ne",
+  "textures": {
+    "rail": "goblinmines_minecart_tweaks:block/copper_rail_on"
+  }
+}
