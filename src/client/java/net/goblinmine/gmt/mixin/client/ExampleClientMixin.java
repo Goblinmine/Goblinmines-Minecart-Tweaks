@@ -1,4 +1,4 @@
-package net.goblinmine.minecart_tweaks.mixin.client;
+package net.goblinmine.gmt.mixin.client;
 
 import net.minecraft.client.MinecraftClient;
 import org.spongepowered.asm.mixin.Mixin;

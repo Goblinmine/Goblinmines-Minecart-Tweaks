@@ -1,6 +1,0 @@
-{
-  "variants": {
-    "charged=false": { "model": "goblinmines_minecart_tweaks:block/example_block" },
-    "charged=true": { "model": "goblinmines_minecart_tweaks:block/example_block_charged" }
-  }
-}

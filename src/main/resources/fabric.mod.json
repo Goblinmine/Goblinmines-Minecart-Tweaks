@@ -2,30 +2,31 @@
 	"schemaVersion": 1,
 	"id": "goblinmines_minecart_tweaks",
 	"version": "${version}",
-	"name": "Goblinmine's Minecart Tweaks",
-	"description": "A Mod to add some QoL stuff to minecarts and make them a viable transportation method",
+	"name": "Goblinmine`s Minecart Tweaks",
+	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Goblinmine"
+		"Me!"
 	],
 	"contact": {
-		"sources": "https://github.com/Goblinmine/Goblinmines-Minecart-Tweaks"
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/goblinmines_minecart_tweaks/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.goblinmine.minecart_tweaks.GoblinminesMinecartTweaks"
+			"net.goblinmine.gmt.GoblinminesMinecartTweaks"
 		],
 		"client": [
-			"net.goblinmine.minecart_tweaks.GoblinminesMinecartTweaksClient"
+			"net.goblinmine.gmt.GoblinminesMinecartTweaksClient"
 		],
 		"fabric-datagen": [
-			"net.goblinmine.minecart_tweaks.GoblinminesMinecartTweaksDataGenerator"
+			"net.goblinmine.gmt.GoblinminesMinecartTweaksDataGenerator"
 		]
 	},
 	"mixins": [
-      "goblinmines_minecart_tweaks.mixins.json",
+		"goblinmines_minecart_tweaks.mixins.json",
 		{
 			"config": "goblinmines_minecart_tweaks.client.mixins.json",
 			"environment": "client"
@@ -36,5 +37,8 @@
 		"minecraft": "~1.20.4",
 		"java": ">=17",
 		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
 	}
 }

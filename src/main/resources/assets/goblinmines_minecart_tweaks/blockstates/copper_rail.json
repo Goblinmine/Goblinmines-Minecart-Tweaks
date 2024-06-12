@@ -24,7 +24,7 @@
       "model": "goblinmines_minecart_tweaks:block/copper_rail_raised_sw",
       "y": 90
     },
-
+    
     "powered=true,shape=east_west": {
       "model": "goblinmines_minecart_tweaks:block/copper_rail_on",
       "y": 90

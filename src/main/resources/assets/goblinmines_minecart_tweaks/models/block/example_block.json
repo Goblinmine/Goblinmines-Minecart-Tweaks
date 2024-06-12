@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "goblinmines_minecart_tweaks:block/example_block"
-  }
-}
