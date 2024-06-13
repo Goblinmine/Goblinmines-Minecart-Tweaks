@@ -1,15 +1,16 @@
 modLoader = "javafml"
 loaderVersion = "[47,)"
 #issueTrackerURL = ""
-license = "Insert License Here"
+license = "CC BY-NC-SA 4.0"
 
 [[mods]]
 modId = "goblinmines_minecart_tweaks"
 version = "${version}"
 displayName = "Goblinmine`s Minecart Tweaks"
-authors = "Me!"
+authors = "Goblinmine"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+This mod is for everyone who want minecarts to be a viable method of travel again!
+It buffs the speed of the powered rail and adds the copper rail as as a cheaper powered rail option with vanilla speed
 '''
 #logoFile = ""
 
