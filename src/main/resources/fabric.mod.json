@@ -10,7 +10,7 @@
 	"contact": {
 		"sources": "https://github.com/Goblinmine/Goblinmines-Minecart-Tweaks"
 	},
-	"license": "CC0-1.0",
+	"license": "CC BY-NC-SA 4.0",
 	"icon": "assets/goblinmines_minecart_tweaks/icon.png",
 	"environment": "*",
 	"entrypoints": {
