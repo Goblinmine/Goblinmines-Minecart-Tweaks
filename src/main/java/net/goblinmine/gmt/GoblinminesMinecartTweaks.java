@@ -32,7 +32,7 @@ public class GoblinminesMinecartTweaks implements ModInitializer {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.REDSTONE).register(content -> {
             content.addAfter(Items.RAIL, CopperRailBlock.BLOCK_ITEM);
         });
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(content -> {
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(content -> {
             content.addAfter(Items.RAIL, CopperRailBlock.BLOCK_ITEM);
         });
     }
