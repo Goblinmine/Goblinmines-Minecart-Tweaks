@@ -1,27 +1,14 @@
 package net.goblinmine.gmt;
 
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
 import net.minecraft.block.PoweredRailBlock;
-import net.minecraft.entity.vehicle.AbstractMinecartEntity;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.sound.BlockSoundGroup;
-import net.minecraft.state.StateManager;
-import net.minecraft.state.property.Property;
-import net.minecraft.util.math.Vec3d;
 
 public class CopperRailBlock extends PoweredRailBlock {
     public static final Block BLOCK = new CopperRailBlock(
-//            FabricBlockSettings.create()
-//                    .strength(0.7f, 0.7f)
-//                    .sounds(BlockSoundGroup.METAL)
-//                    .notSolid()
-//                    .noCollision()
-//                    .requiresTool()
             AbstractBlock.Settings.create()
                     .strength(0.7f, 0.7f)
                     .sounds(BlockSoundGroup.METAL)
@@ -30,7 +17,6 @@ public class CopperRailBlock extends PoweredRailBlock {
     );
 
     public static final BlockItem BLOCK_ITEM = new BlockItem(BLOCK,
-            //new FabricItemSettings()
             new Item.Settings()
     );
 
