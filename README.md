@@ -9,10 +9,14 @@ Goblinmine's Minecart Tweaks is a Fabric mod for Minecraft that enhances minecar
 
 ## Features
 
-- **Feature 1**: Description of the first feature.
-- **Feature 2**: Description of the second feature.
-- **Feature 3**: Description of the third feature.
-- **And more!**: Additional features and improvements.
+- **Copper Rails**: Introducing copper rails, a cost-effective alternative to powered rails. Crafted with copper, these rails are not only cheaper but also slightly faster than vanilla powered rails, providing a balanced upgrade for your rail system.
+- **Improved Powered Rails**: Experience a significant boost in speed with enhanced powered rails. Travel faster and more efficiently across your worlds, reducing travel time and increasing productivity.
+
+### Currently planned features
+- **Minecart Chaining**: Soon, you will be able to chain multiple minecarts together, creating train-like systems for more extensive and organized transportation.
+- **Enhanced Furnace Minecart**: The furnace minecart will receive an inventory slot capable of holding a whole stack of burnable items, increasing its operational time and reducing the need for constant refueling.
+- **Chunk Loading**: Future updates will enable the furnace minecart to load chunks autonomously, allowing it to travel long distances without requiring a player to keep the chunks loaded.
+- **Automated Fuel Management**: The furnace minecart will be able to draw fuel from a connected chest minecart, streamlining the refueling process and ensuring continuous operation without manual intervention.
 
 ## Installation
 
