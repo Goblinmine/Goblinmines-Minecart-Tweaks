@@ -26,8 +26,7 @@ public class GoblinminesMinecartTweaks implements ModInitializer {
 
         LOGGER.info("Hello Fabric world!");
 
-
-        Identifier CopperRailID = new Identifier(MOD_ID, "copper_rail");
+        Identifier CopperRailID = Identifier.of(MOD_ID, "copper_rail");
         Registry.register(Registries.BLOCK, CopperRailID, CopperRailBlock.BLOCK);
         Registry.register(Registries.ITEM, CopperRailID, CopperRailBlock.BLOCK_ITEM);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.REDSTONE).register(content -> {
