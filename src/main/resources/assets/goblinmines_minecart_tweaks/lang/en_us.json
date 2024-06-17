@@ -1,3 +1,5 @@
 {
-    "block.goblinmines_minecart_tweaks.copper_rail": "Copper Rail"
+    "block.goblinmines_minecart_tweaks.copper_rail": "Copper Rail",
+    "gamerule.poweredRailSpeed": "Powered Rail Speed",
+    "gamerule.copperRailSpeed": "Copper Rail Speed"
 }
