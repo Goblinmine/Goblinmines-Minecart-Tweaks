@@ -15,7 +15,8 @@ public class GoblinminesMinecartTweaks implements ModInitializer {
     // This logger is used to write text to the console and the log file.
     // It is considered best practice to use your mod id as the logger's name.
     // That way, it's clear which mod wrote info, warnings, and errors.
-    public static final Logger LOGGER = LoggerFactory.getLogger("goblinmines_minecart_tweaks");
+    public static final Logger LOGGER = LoggerFactory.getLogger("Goblinmine's Minecart Tweaks");
+    public static final String MOD_ID = "goblinmines_minecart_tweaks";
 
     @Override
     public void onInitialize() {
@@ -26,11 +27,14 @@ public class GoblinminesMinecartTweaks implements ModInitializer {
         LOGGER.info("Hello Fabric world!");
 
 
-        Identifier CopperRailID = new Identifier("goblinmines_minecart_tweaks", "copper_rail");
+        Identifier CopperRailID = new Identifier(MOD_ID, "copper_rail");
         Registry.register(Registries.BLOCK, CopperRailID, CopperRailBlock.BLOCK);
         Registry.register(Registries.ITEM, CopperRailID, CopperRailBlock.BLOCK_ITEM);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.REDSTONE).register(content -> {
-            content.addAfter(Items.ACTIVATOR_RAIL, CopperRailBlock.BLOCK_ITEM);
+            content.addAfter(Items.RAIL, CopperRailBlock.BLOCK_ITEM);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(content -> {
+            content.addAfter(Items.RAIL, CopperRailBlock.BLOCK_ITEM);
         });
     }
 }
