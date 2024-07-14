@@ -13,7 +13,6 @@ public class CopperRailBlock extends PoweredRailBlock {
                     .strength(0.7f, 0.7f)
                     .sounds(BlockSoundGroup.METAL)
                     .noCollision()
-                    .requiresTool()
     );
 
     public static final BlockItem BLOCK_ITEM = new BlockItem(BLOCK,
